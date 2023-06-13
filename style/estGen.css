@@ -1,0 +1,25 @@
+* { margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+body {background: black;}
+
+main { width: 1040px;
+    height: 780px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 50px 630px 100px;
+    grid-template-areas: 'header'
+                         'section'
+                         'footer';
+}
+
+section { background: #FFFFFF;
+    color: #212F3D;
+    grid-area: section;
+}
+footer { background-color: #1D3C4E;
+    color: #97A5AD;
+    grid-area: footer;
+}

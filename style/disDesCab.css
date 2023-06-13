@@ -1,0 +1,45 @@
+header { background: #333A40;
+    color: #FFFFFF;
+    grid-area: header;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+#logo {width: 100px;
+    height: 90%;
+    margin-left: 40px;
+    font: normal 10px Calibri;
+}
+#logo h1 { margin-top: 11px;
+    
+}
+#menSup {width: 645px;
+    height: 90%;
+    margin-right: 75px;
+}
+#menSup ul { 
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#menSup ul li{
+    margin-top: 11px;
+    display: inline-block;
+}
+
+#menSup ul li a { text-decoration: none;
+    font: normal 17px calibri;
+}
+.menAct {
+    background: #25A342;
+    color: white;
+    cursor:default;
+    padding: 5px;
+    border-radius: 7px;
+}
+.menDes{
+    background: 333A40;
+    color: #A1A4A7;
+}

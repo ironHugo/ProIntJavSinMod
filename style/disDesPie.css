@@ -1,0 +1,21 @@
+#menInf {
+    width: 910px;
+    margin-left: 55px;
+    color: #CBC3A3;
+    margin-top: 30px;
+}
+#menInf ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#menInf ul li{ 
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+}
+#menInf ul li a { text-decoration: none;
+    color: #e6e1d6; /*ABA18C*/
+    font: normal 18px calibri;
+}

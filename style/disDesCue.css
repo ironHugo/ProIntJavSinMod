@@ -1,0 +1,166 @@
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#tipDes{ 
+    width: 620px;
+    height: 180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#tipDes > p {
+    width: 200px;
+    height: 180px;
+    display: inline-block;
+    text-align: center;
+    font-family: calibri;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+p[id^='des'] span:nth-child(1){
+    width: 100%;
+    height: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 60px;
+    margin-top: 0px;
+    border-radius: 5px 5px 0 0;
+    color: white;
+} 
+p[id='desEst'] span:nth-child(1){
+    background: #0D6EFD;
+}
+p[id='desEst'] {
+    border: 1px solid #0D6EFD;
+}
+p[id='desTra'] span:nth-child(1){
+    background: #0DCAF0;
+}
+p[id='desTra']{
+    border: 1px solid #0DCAF0;
+}
+p[id='desJun'] span:nth-child(1){
+    background: #FFC107;
+}
+p[id='desJun']{
+    border: 1px solid #FFC107;
+}
+p[id^='des'] span:nth-child(2){
+    font-size: 16px;
+}
+p[id^='des'] span:nth-child(3){
+    font-size: 14px;
+    font-weight: bold;
+}
+p[id^='des'] span:nth-child(4){
+    font-size: 12px;
+    margin-bottom: 20px;
+    
+}
+
+#inf{ 
+    width: 620px;   
+    height: 67px;
+    color: #212529;
+}
+#inf{ text-align: center;
+    font: normal 18px calibri;
+}
+#inf > span{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+#forDat{ 
+    width: 620px;
+    height: 315px;
+    display: grid;
+    grid-template-columns: 5fr,5fr;
+    grid-template-rows: 55px, 55px, 20px, 55px, 75px, 55px;
+    grid-template-areas: 'nom ape'
+                         'mei mei'
+                         'canL catL'
+                         'can cat'
+                         'pre pre'
+                         'res cal';
+}
+#nom {
+    grid-area: nom;
+    margin: 0 2.5px 10px 0;
+}
+#ape {
+    grid-area: ape;
+    margin: 0 0 10px 2.5px;
+}
+#mei {
+    grid-area: mei;
+    margin: 5px 0 10px 0;
+}
+#canL {
+    grid-area: canL;
+}
+#catL {
+    grid-area: catL;
+}
+#can {
+    grid-area: can;
+    margin: 0 2.5px 12px 0;
+}
+#cat {
+    grid-area: cat;
+    margin: 0 0 12px 2.5px;
+}
+#preTot { font:500 20px calibri;
+    grid-area: pre;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #CFE2FF;
+    color: #084298;
+    margin: 8px 0;
+    padding-left: 20px;
+}
+#valTot { position: absolute;
+    margin-top: -8px;
+    font-weight:bold;
+    font-size: 32px;
+}
+#res {
+    grid-area: res;
+    margin: 10px 2.5px 0 0;
+}
+#calCos {
+    grid-area: cal;
+    margin: 10px 0 0 2.5px;
+}
+
+form input, form select {
+    border: 1px solid #CED4D4;
+    color: #6C757D;
+    padding-left: 15px;
+    font-size: 16px;
+    border-radius: 5px; 
+  
+}
+#catL, #canL { 
+    padding-left: 15px;
+    padding-top: 8px;
+    margin-bottom: -17px;
+    color: #212529;
+    height: 25px;
+    font-size: 18px;
+}
+#res, #calCos{
+    background: #96C93E;
+    color: white;
+    font-weight: bold;
+}
+#res:hover, #calCos:hover {
+    background: #74AA17;
+}
